@@ -1,5 +1,5 @@
 # tinc
-Script to aid in timing based hacks that require an interger is to be incremented on each request
+Script to aid in timing based hacks that require an interger is to be incremented on each request. By default tinc multiplies the suplied integer by 2 on each request. This was created originally as a one off for a POC using BENCHMARK() in a SQL injection.
 
 # Usage:
  * -i int
