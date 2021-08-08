@@ -48,7 +48,7 @@ func main() {
 		newURL := strings.Replace(URLstring, "ZCZC", s, 1)
 		a, err := url.Parse(newURL)
 		if err != nil {
-			log.Fatal(err)
+		        fmt.Println(color.RedString(err.Error()))
 		}
 
 		fetchURL(a)
@@ -61,13 +61,13 @@ func fetchURL(u *url.URL) {
 	time_start := time.Now()
 	req, err := http.NewRequest("GET", u.String(), nil)
 	if err != nil {
-		fmt.Println(err)
+		fmt.Println(color.RedString(err.Error()))
 	}
 	req.Header.Set("User-Agent", "inc/0.1")
 
 	resp, err := client.Do(req)
 	if err != nil {
-		fmt.Println(err)
+		fmt.Println(color.RedString(err.Error()))
 	}
 
 	defer resp.Body.Close()
