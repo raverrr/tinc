@@ -12,7 +12,7 @@ Script to aid in timing based hacks that require an interger is to be incremente
  *   	--> URL with 'ZCZC' where the interger to increment should be placed 
 
 # installation
-    >go get -u github.com/raverrr/tinc
+    go get -u github.com/raverrr/tinc
  
  # Screnshot
  ![alt text](https://i.imgur.com/XB7TOXp.png)
