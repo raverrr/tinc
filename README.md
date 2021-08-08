@@ -12,4 +12,5 @@ Script to aid in timing based hacks that require an interger is to be incremente
  *   	--> URL with 'ZCZC' where the interger to increment should be placed 
  
  # Screnshot
- https://i.imgur.com/XB7TOXp.png
+ ![alt text](https://i.imgur.com/XB7TOXp.png)
+ 
